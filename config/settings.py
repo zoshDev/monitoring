@@ -6,79 +6,91 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 from typing import Optional, List
 import os
 
-
-
-
 class Settings(BaseSettings):
     """
     Classe de configuration de l'application.
     Les paramètres sont chargés à partir des variables d'environnement ou d'un fichier .env.
     """
     
-    BACKUP_STORAGE_ROOT: str  = Field(
-        "test_manuel",
-        env="BACKUP_STORAGE_ROOT"
-    )  
+    # Stockage des sauvegardes
+    BACKUP_STORAGE_ROOT: str = Field(
+        default="test_manuel",
+        description="Répertoire racine pour le stockage des sauvegardes"
+    )
+    
     VALIDATED_BACKUPS_BASE_PATH: str = "validate"
     
     # Configuration de la base de données
     DATABASE_URL: str = Field(
-        "sqlite:///./data/db/sql_app.db",
-        env="DATABASE_URL"
+        default="sqlite:///./data/db/sql_app.db",
+        description="URL de connexion à la base de données"
     )
 
-    API_V1_STR: str = Field("/api/v1",
-         env="API_V1_STR"
+    API_V1_STR: str = Field(
+        default="/api/v1",
+        description="Préfixe pour les routes de l'API v1"
     )
 
-
-    # Chemin pour le stockage final des sauvegardes validées
-    # C'est là que backup_manager déplacera les fichiers.
-    # Intervalle de planification du scanner de sauvegardes en minutes
+    # Configuration du scanner
     SCANNER_INTERVAL_MINUTES: int = Field(
-        1,
-        env="SCANNER_INTERVAL_MINUTES"
+        default=1,
+        description="Intervalle de planification du scanner de sauvegardes en minutes",
+        gt=0
     )
     
-    # Nouvelle variable : Fenêtre de temps en minutes pendant laquelle un rapport STATUS.json
-    # est considéré comme pertinent après l'heure attendue du job.
-    # Ex: Si job attendu à 13h, et fenêtre de 60 min, un rapport entre 13h00 et 14h00 sera considéré.
     SCANNER_REPORT_COLLECTION_WINDOW_MINUTES: int = Field(
-        60, # 60 minutes de marge de retard pour les rapports
-        env="SCANNER_REPORT_COLLECTION_WINDOW_MINUTES"
+        default=60,
+        description="Fenêtre de temps en minutes pour la collecte des rapports",
+        gt=0
     )
 
-    # Nouvelle variable : Âge maximum (en jours) d'un fichier STATUS.json
-    # pour qu'il soit considéré comme pertinent par le scanner.
     MAX_STATUS_FILE_AGE_DAYS: int = Field(
-        1, # Un rapport de plus d'un jour est ignoré (sauf si c'est la seule preuve d'un job ancien)
-        env="MAX_STATUS_FILE_AGE_DAYS"
+        default=1,
+        description="Âge maximum en jours d'un fichier STATUS.json",
+        gt=0
     )
 
-    # Fuseau horaire par défaut de l'application pour les opérations temporelles si non spécifié en UTC
     APP_TIMEZONE: str = Field(
-        "UTC",
-        env="APP_TIMEZONE"
+        default="UTC",
+        description="Fuseau horaire par défaut de l'application"
     )
 
-    # Paramètres pour les notifications par e-mail
-    EMAIL_HOST: Optional[str] = os.getenv("EMAIL_HOST")
-    try:
-        EMAIL_PORT: int = int(os.getenv("EMAIL_PORT", 587) )
-    except ValueError:
-        EMAIL_PORT:int=587
+    # Configuration email
+    EMAIL_HOST: Optional[str] = Field(
+        default=None,
+        description="Hôte du serveur SMTP"
+    )
+    
+    EMAIL_PORT: int = Field(
+        default=587,
+        description="Port du serveur SMTP"
+    )
 
-    EMAIL_USERNAME: Optional[str] = os.getenv("EMAIL_USERNAME")
-    EMAIL_PASSWORD: Optional[str] = os.getenv("EMAIL_PASSWORD")
-    EMAIL_SENDER: Optional[str] = os.getenv("EMAIL_SENDER")
-    ADMIN_EMAIL_RECIPIENT: Optional[str] = os.getenv("ADMIN_EMAIL_RECIPIENT")
+    EMAIL_USERNAME: Optional[str] = Field(
+        default=None,
+        description="Nom d'utilisateur SMTP"
+    )
+    
+    EMAIL_PASSWORD: Optional[str] = Field(
+        default=None,
+        description="Mot de passe SMTP"
+    )
+    
+    EMAIL_SENDER: Optional[str] = Field(
+        default=None,
+        description="Adresse email de l'expéditeur"
+    )
+    
+    ADMIN_EMAIL_RECIPIENT: Optional[str] = Field(
+        default=None,
+        description="Adresse email du destinataire administrateur"
+    )
 
     model_config = SettingsConfigDict(
         env_file=".env",
         env_file_encoding='utf-8',
+        case_sensitive=True,
         extra='ignore'
     )
-
-    
 
 settings = Settings()
