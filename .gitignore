@@ -92,3 +92,7 @@ validate/
 .DS_Store
 Thumbs.db
 
+# 🔹 Fichiers spécifiques au projet
+scanner_test_root/
+scanner_test_root0/
+
