@@ -1,0 +1,467 @@
+{
+    "operation_start_time": "2025-06-24T08:00:00",
+    "operation_end_time": "2025-06-24T08:30:00",
+    "agent_id": "SOCIA_BLU_GARE_4",
+    "databases": {
+        "SOCIA_BLU_GARE_2025_1": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "SOCIA_BLU_GARE_2025_2": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:10",
+                "end_time": "2025-06-24T08:00:12",
+                "sha256": "971d212cba1428ae7f4558a79f5018780fc53b1c91cf58d3a27ef2e0eab4f9a6",
+                "size": "35"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:21",
+                "end_time": "2025-06-24T08:13:41",
+                "sha256": "971d212cba1428ae7f4558a79f5018780fc53b1c91cf58d3a27ef2e0eab4f9a6",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:41",
+                "end_time": "2025-06-24T08:26:43",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_BLU_GARE_4\\databases\\SOCIA_BLU_GARE_2025_2.zst"
+        },
+        "SOCIA_BLU_GARE_2025_3": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:20",
+                "end_time": "2025-06-24T08:00:22",
+                "sha256": "971d212cba1428ae7f4558a79f5018780fc53b1c91cf58d3a27ef2e0eab4f9a6",
+                "size": "35"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:22",
+                "end_time": "2025-06-24T08:13:42",
+                "sha256": "971d212cba1428ae7f4558a79f5018780fc53b1c91cf58d3a27ef2e0eab4f9a6",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:42",
+                "end_time": "2025-06-24T08:26:44",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_BLU_GARE_4\\databases\\SOCIA_BLU_GARE_2025_3.zst"
+        },
+        "SOCIA_BLU_GARE_2025_4": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:30",
+                "end_time": "2025-06-24T08:00:32",
+                "sha256": "INVALID_HASH_3_3",
+                "size": "35"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:23",
+                "end_time": "2025-06-24T08:13:43",
+                "sha256": "INVALID_HASH_3_3",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:43",
+                "end_time": "2025-06-24T08:26:45",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_BLU_GARE_4\\databases\\SOCIA_BLU_GARE_2025_4.zst"
+        },
+        "SOCIA_BLU_GARE_2025_5": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "SOCIA_BLU_GARE_2025_6": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:50",
+                "end_time": "2025-06-24T08:00:52",
+                "sha256": "a7f7a4d76ebd73f85edfd9faa3d0e01743f2cddfd2b07971f526d593e37c4600",
+                "size": "35"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:25",
+                "end_time": "2025-06-24T08:13:45",
+                "sha256": "a7f7a4d76ebd73f85edfd9faa3d0e01743f2cddfd2b07971f526d593e37c4600",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:45",
+                "end_time": "2025-06-24T08:26:47",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_BLU_GARE_4\\databases\\SOCIA_BLU_GARE_2025_6.zst"
+        },
+        "SOCIA_BLU_GARE_2025_7": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:00",
+                "end_time": "2025-06-24T08:01:02",
+                "sha256": "a7f7a4d76ebd73f85edfd9faa3d0e01743f2cddfd2b07971f526d593e37c4600",
+                "size": "35"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:26",
+                "end_time": "2025-06-24T08:13:46",
+                "sha256": "a7f7a4d76ebd73f85edfd9faa3d0e01743f2cddfd2b07971f526d593e37c4600",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:46",
+                "end_time": "2025-06-24T08:26:48",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_BLU_GARE_4\\databases\\SOCIA_BLU_GARE_2025_7.zst"
+        },
+        "SOCIA_BLU_GARE_2025_8": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:10",
+                "end_time": "2025-06-24T08:01:12",
+                "sha256": "INVALID_HASH_3_7",
+                "size": "35"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:27",
+                "end_time": "2025-06-24T08:13:47",
+                "sha256": "INVALID_HASH_3_7",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:47",
+                "end_time": "2025-06-24T08:26:49",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_BLU_GARE_4\\databases\\SOCIA_BLU_GARE_2025_8.zst"
+        },
+        "SOCIA_BLU_GARE_2025_9": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "SOCIA_BLU_GARE_2025_10": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:30",
+                "end_time": "2025-06-24T08:01:32",
+                "sha256": "18a5b17b03e8e7dcf60f54a16b5c1b365e7bff1f0176fad8f548d35fd8adc066",
+                "size": "36"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:29",
+                "end_time": "2025-06-24T08:13:49",
+                "sha256": "18a5b17b03e8e7dcf60f54a16b5c1b365e7bff1f0176fad8f548d35fd8adc066",
+                "size": "9"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:49",
+                "end_time": "2025-06-24T08:26:51",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_BLU_GARE_4\\databases\\SOCIA_BLU_GARE_2025_10.zst"
+        },
+        "SOCIA_BLU_GARE_2025_11": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:40",
+                "end_time": "2025-06-24T08:01:42",
+                "sha256": "18a5b17b03e8e7dcf60f54a16b5c1b365e7bff1f0176fad8f548d35fd8adc066",
+                "size": "36"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:30",
+                "end_time": "2025-06-24T08:13:50",
+                "sha256": "18a5b17b03e8e7dcf60f54a16b5c1b365e7bff1f0176fad8f548d35fd8adc066",
+                "size": "9"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:50",
+                "end_time": "2025-06-24T08:26:52",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_BLU_GARE_4\\databases\\SOCIA_BLU_GARE_2025_11.zst"
+        },
+        "SOCIA_BLU_GARE_2025_12": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:50",
+                "end_time": "2025-06-24T08:01:52",
+                "sha256": "INVALID_HASH_3_11",
+                "size": "36"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:31",
+                "end_time": "2025-06-24T08:13:51",
+                "sha256": "INVALID_HASH_3_11",
+                "size": "9"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:51",
+                "end_time": "2025-06-24T08:26:53",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_BLU_GARE_4\\databases\\SOCIA_BLU_GARE_2025_12.zst"
+        },
+        "SOCIA_BLU_GARE_2025_13": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "SOCIA_BLU_GARE_2025_14": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:10",
+                "end_time": "2025-06-24T08:02:12",
+                "sha256": "4c10fb512a361cfc852b7f17871508b51973b0f95ccf1f4ffcae85cc9f817388",
+                "size": "36"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:33",
+                "end_time": "2025-06-24T08:13:53",
+                "sha256": "4c10fb512a361cfc852b7f17871508b51973b0f95ccf1f4ffcae85cc9f817388",
+                "size": "9"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:53",
+                "end_time": "2025-06-24T08:26:55",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_BLU_GARE_4\\databases\\SOCIA_BLU_GARE_2025_14.zst"
+        },
+        "SOCIA_BLU_GARE_2025_15": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:20",
+                "end_time": "2025-06-24T08:02:22",
+                "sha256": "4c10fb512a361cfc852b7f17871508b51973b0f95ccf1f4ffcae85cc9f817388",
+                "size": "36"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:34",
+                "end_time": "2025-06-24T08:13:54",
+                "sha256": "4c10fb512a361cfc852b7f17871508b51973b0f95ccf1f4ffcae85cc9f817388",
+                "size": "9"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:54",
+                "end_time": "2025-06-24T08:26:56",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_BLU_GARE_4\\databases\\SOCIA_BLU_GARE_2025_15.zst"
+        },
+        "SOCIA_BLU_GARE_2025_16": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:30",
+                "end_time": "2025-06-24T08:02:32",
+                "sha256": "INVALID_HASH_3_15",
+                "size": "36"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:35",
+                "end_time": "2025-06-24T08:13:55",
+                "sha256": "INVALID_HASH_3_15",
+                "size": "9"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:55",
+                "end_time": "2025-06-24T08:26:57",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_BLU_GARE_4\\databases\\SOCIA_BLU_GARE_2025_16.zst"
+        },
+        "SOCIA_BLU_GARE_2025_17": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "SOCIA_BLU_GARE_2025_18": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:50",
+                "end_time": "2025-06-24T08:02:52",
+                "sha256": "1cec47cdbeea8bfd299dcbaf8fc4dba10c93ffb41d085dacd55ad52d54fc5640",
+                "size": "36"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:37",
+                "end_time": "2025-06-24T08:13:57",
+                "sha256": "1cec47cdbeea8bfd299dcbaf8fc4dba10c93ffb41d085dacd55ad52d54fc5640",
+                "size": "9"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:57",
+                "end_time": "2025-06-24T08:26:59",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_BLU_GARE_4\\databases\\SOCIA_BLU_GARE_2025_18.zst"
+        },
+        "SOCIA_BLU_GARE_2025_19": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:03:00",
+                "end_time": "2025-06-24T08:03:02",
+                "sha256": "1cec47cdbeea8bfd299dcbaf8fc4dba10c93ffb41d085dacd55ad52d54fc5640",
+                "size": "36"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:38",
+                "end_time": "2025-06-24T08:13:58",
+                "sha256": "1cec47cdbeea8bfd299dcbaf8fc4dba10c93ffb41d085dacd55ad52d54fc5640",
+                "size": "9"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:58",
+                "end_time": "2025-06-24T08:27:00",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_BLU_GARE_4\\databases\\SOCIA_BLU_GARE_2025_19.zst"
+        },
+        "SOCIA_BLU_GARE_2025_20": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:03:10",
+                "end_time": "2025-06-24T08:03:12",
+                "sha256": "INVALID_HASH_3_19",
+                "size": "36"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:39",
+                "end_time": "2025-06-24T08:13:59",
+                "sha256": "INVALID_HASH_3_19",
+                "size": "9"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:59",
+                "end_time": "2025-06-24T08:27:01",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_BLU_GARE_4\\databases\\SOCIA_BLU_GARE_2025_20.zst"
+        }
+    }
+}

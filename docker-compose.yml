@@ -1,0 +1,59 @@
+version: '3.8'
+
+services:
+  monitoring:
+    build: .
+    container_name: monitoring_app
+    ports:
+      - "8000:8000"
+    volumes:
+      # Les chemins sont montés selon la configuration dans settings.py
+      - ${BACKUP_PATH:-/srv/backups}:${BACKUP_STORAGE_ROOT:-/monitoring/test_manuel}
+      - ${VALIDATE_PATH:-/srv/validate}:${VALIDATED_BACKUPS_BASE_PATH:-/monitoring/validate}
+      - ${DB_PATH:-/srv/database}:/monitoring/data/db
+    environment:
+      # Variables d'environnement qui peuvent surcharger settings.py
+      - BACKUP_STORAGE_ROOT=${BACKUP_STORAGE_ROOT:-/monitoring/test_manuel}
+      - VALIDATED_BACKUPS_BASE_PATH=${VALIDATED_BACKUPS_BASE_PATH:-/monitoring/validate}
+      - DATABASE_URL=${DATABASE_URL:-sqlite:////monitoring/data/db/sql_app.db}
+    restart: unless-stopped
+
+volumes:
+  backup_data:
+    driver: local
+  validated_data:
+    driver: local
+  db_data:
+    driver: local
+
+# =============================================================================
+# TUTORIEL D'UTILISATION DU DOCKER-COMPOSE
+# =============================================================================
+#
+# Ce fichier docker-compose configure les volumes et variables d'environnement
+# pour l'application de monitoring.
+#
+# VARIABLES D'ENVIRONNEMENT :
+# Vous pouvez créer un fichier .env avec ces variables :
+#
+# BACKUP_PATH=/chemin/serveur/backups     # Chemin des backups sur le serveur
+# VALIDATE_PATH=/chemin/serveur/validate  # Chemin des validations sur le serveur
+# DB_PATH=/chemin/serveur/database        # Chemin de la base de données
+#
+# BACKUP_STORAGE_ROOT=/monitoring/test_manuel      # Chemin dans le conteneur
+# VALIDATED_BACKUPS_BASE_PATH=/monitoring/validate # Chemin dans le conteneur
+# DATABASE_URL=sqlite:////monitoring/data/db/sql_app.db
+#
+# UTILISATION :
+# 1. Créez les répertoires sur le serveur :
+#    mkdir -p /srv/backups /srv/validate /srv/database
+#
+# 2. Démarrez l'application :
+#    docker-compose up -d
+#
+# 3. Vérifiez les logs :
+#    docker-compose logs -f
+#
+# Les chemins par défaut peuvent être surchargés via le fichier .env
+# ou des variables d'environnement.
+# =============================================================================

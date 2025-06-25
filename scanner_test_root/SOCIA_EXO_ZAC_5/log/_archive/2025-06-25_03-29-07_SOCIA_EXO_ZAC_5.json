@@ -1,0 +1,467 @@
+{
+    "operation_start_time": "2025-06-24T08:00:00",
+    "operation_end_time": "2025-06-24T08:30:00",
+    "agent_id": "SOCIA_EXO_ZAC_5",
+    "databases": {
+        "SOCIA_EXO_ZAC_2025_1": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:00",
+                "end_time": "2025-06-24T08:00:02",
+                "sha256": "8ef243a35e9d15144c804e320bc50af944a0272642cf7c74f5acb4309e2222ae",
+                "size": "34"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:20",
+                "end_time": "2025-06-24T08:13:40",
+                "sha256": "8ef243a35e9d15144c804e320bc50af944a0272642cf7c74f5acb4309e2222ae",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:40",
+                "end_time": "2025-06-24T08:26:42",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_EXO_ZAC_5\\databases\\SOCIA_EXO_ZAC_2025_1.zst"
+        },
+        "SOCIA_EXO_ZAC_2025_2": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:10",
+                "end_time": "2025-06-24T08:00:12",
+                "sha256": "8ef243a35e9d15144c804e320bc50af944a0272642cf7c74f5acb4309e2222ae",
+                "size": "34"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:21",
+                "end_time": "2025-06-24T08:13:41",
+                "sha256": "8ef243a35e9d15144c804e320bc50af944a0272642cf7c74f5acb4309e2222ae",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:41",
+                "end_time": "2025-06-24T08:26:43",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_EXO_ZAC_5\\databases\\SOCIA_EXO_ZAC_2025_2.zst"
+        },
+        "SOCIA_EXO_ZAC_2025_3": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:20",
+                "end_time": "2025-06-24T08:00:22",
+                "sha256": "INVALID_HASH_4_2",
+                "size": "34"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:22",
+                "end_time": "2025-06-24T08:13:42",
+                "sha256": "INVALID_HASH_4_2",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:42",
+                "end_time": "2025-06-24T08:26:44",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_EXO_ZAC_5\\databases\\SOCIA_EXO_ZAC_2025_3.zst"
+        },
+        "SOCIA_EXO_ZAC_2025_4": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "SOCIA_EXO_ZAC_2025_5": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:40",
+                "end_time": "2025-06-24T08:00:42",
+                "sha256": "e8b0be98d930aa9fdff88e4cda26956ab61037680fd0193d8cc499bc98004b97",
+                "size": "34"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:24",
+                "end_time": "2025-06-24T08:13:44",
+                "sha256": "e8b0be98d930aa9fdff88e4cda26956ab61037680fd0193d8cc499bc98004b97",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:44",
+                "end_time": "2025-06-24T08:26:46",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_EXO_ZAC_5\\databases\\SOCIA_EXO_ZAC_2025_5.zst"
+        },
+        "SOCIA_EXO_ZAC_2025_6": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:50",
+                "end_time": "2025-06-24T08:00:52",
+                "sha256": "e8b0be98d930aa9fdff88e4cda26956ab61037680fd0193d8cc499bc98004b97",
+                "size": "34"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:25",
+                "end_time": "2025-06-24T08:13:45",
+                "sha256": "e8b0be98d930aa9fdff88e4cda26956ab61037680fd0193d8cc499bc98004b97",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:45",
+                "end_time": "2025-06-24T08:26:47",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_EXO_ZAC_5\\databases\\SOCIA_EXO_ZAC_2025_6.zst"
+        },
+        "SOCIA_EXO_ZAC_2025_7": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:00",
+                "end_time": "2025-06-24T08:01:02",
+                "sha256": "INVALID_HASH_4_6",
+                "size": "34"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:26",
+                "end_time": "2025-06-24T08:13:46",
+                "sha256": "INVALID_HASH_4_6",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:46",
+                "end_time": "2025-06-24T08:26:48",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_EXO_ZAC_5\\databases\\SOCIA_EXO_ZAC_2025_7.zst"
+        },
+        "SOCIA_EXO_ZAC_2025_8": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "SOCIA_EXO_ZAC_2025_9": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:20",
+                "end_time": "2025-06-24T08:01:22",
+                "sha256": "2e070b4bf61ee15b6d08a3dec837d17ece7f0e17296cf12ed70e17e105acd808",
+                "size": "34"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:28",
+                "end_time": "2025-06-24T08:13:48",
+                "sha256": "2e070b4bf61ee15b6d08a3dec837d17ece7f0e17296cf12ed70e17e105acd808",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:48",
+                "end_time": "2025-06-24T08:26:50",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_EXO_ZAC_5\\databases\\SOCIA_EXO_ZAC_2025_9.zst"
+        },
+        "SOCIA_EXO_ZAC_2025_10": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:30",
+                "end_time": "2025-06-24T08:01:32",
+                "sha256": "2e070b4bf61ee15b6d08a3dec837d17ece7f0e17296cf12ed70e17e105acd808",
+                "size": "35"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:29",
+                "end_time": "2025-06-24T08:13:49",
+                "sha256": "2e070b4bf61ee15b6d08a3dec837d17ece7f0e17296cf12ed70e17e105acd808",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:49",
+                "end_time": "2025-06-24T08:26:51",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_EXO_ZAC_5\\databases\\SOCIA_EXO_ZAC_2025_10.zst"
+        },
+        "SOCIA_EXO_ZAC_2025_11": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:40",
+                "end_time": "2025-06-24T08:01:42",
+                "sha256": "INVALID_HASH_4_10",
+                "size": "35"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:30",
+                "end_time": "2025-06-24T08:13:50",
+                "sha256": "INVALID_HASH_4_10",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:50",
+                "end_time": "2025-06-24T08:26:52",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_EXO_ZAC_5\\databases\\SOCIA_EXO_ZAC_2025_11.zst"
+        },
+        "SOCIA_EXO_ZAC_2025_12": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "SOCIA_EXO_ZAC_2025_13": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:00",
+                "end_time": "2025-06-24T08:02:02",
+                "sha256": "327cae833c6d55ca5b52e6e1c5744cb2197c406ba0b06221c16e6256e08c3edb",
+                "size": "35"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:32",
+                "end_time": "2025-06-24T08:13:52",
+                "sha256": "327cae833c6d55ca5b52e6e1c5744cb2197c406ba0b06221c16e6256e08c3edb",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:52",
+                "end_time": "2025-06-24T08:26:54",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_EXO_ZAC_5\\databases\\SOCIA_EXO_ZAC_2025_13.zst"
+        },
+        "SOCIA_EXO_ZAC_2025_14": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:10",
+                "end_time": "2025-06-24T08:02:12",
+                "sha256": "327cae833c6d55ca5b52e6e1c5744cb2197c406ba0b06221c16e6256e08c3edb",
+                "size": "35"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:33",
+                "end_time": "2025-06-24T08:13:53",
+                "sha256": "327cae833c6d55ca5b52e6e1c5744cb2197c406ba0b06221c16e6256e08c3edb",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:53",
+                "end_time": "2025-06-24T08:26:55",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_EXO_ZAC_5\\databases\\SOCIA_EXO_ZAC_2025_14.zst"
+        },
+        "SOCIA_EXO_ZAC_2025_15": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:20",
+                "end_time": "2025-06-24T08:02:22",
+                "sha256": "INVALID_HASH_4_14",
+                "size": "35"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:34",
+                "end_time": "2025-06-24T08:13:54",
+                "sha256": "INVALID_HASH_4_14",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:54",
+                "end_time": "2025-06-24T08:26:56",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_EXO_ZAC_5\\databases\\SOCIA_EXO_ZAC_2025_15.zst"
+        },
+        "SOCIA_EXO_ZAC_2025_16": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "SOCIA_EXO_ZAC_2025_17": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:40",
+                "end_time": "2025-06-24T08:02:42",
+                "sha256": "577bcf1d35494920e1b04b096826cd98b2dc4533fde6c3bc6c2f8b3743f9f0d9",
+                "size": "35"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:36",
+                "end_time": "2025-06-24T08:13:56",
+                "sha256": "577bcf1d35494920e1b04b096826cd98b2dc4533fde6c3bc6c2f8b3743f9f0d9",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:56",
+                "end_time": "2025-06-24T08:26:58",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_EXO_ZAC_5\\databases\\SOCIA_EXO_ZAC_2025_17.zst"
+        },
+        "SOCIA_EXO_ZAC_2025_18": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:50",
+                "end_time": "2025-06-24T08:02:52",
+                "sha256": "577bcf1d35494920e1b04b096826cd98b2dc4533fde6c3bc6c2f8b3743f9f0d9",
+                "size": "35"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:37",
+                "end_time": "2025-06-24T08:13:57",
+                "sha256": "577bcf1d35494920e1b04b096826cd98b2dc4533fde6c3bc6c2f8b3743f9f0d9",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:57",
+                "end_time": "2025-06-24T08:26:59",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_EXO_ZAC_5\\databases\\SOCIA_EXO_ZAC_2025_18.zst"
+        },
+        "SOCIA_EXO_ZAC_2025_19": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:03:00",
+                "end_time": "2025-06-24T08:03:02",
+                "sha256": "INVALID_HASH_4_18",
+                "size": "35"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:38",
+                "end_time": "2025-06-24T08:13:58",
+                "sha256": "INVALID_HASH_4_18",
+                "size": "8"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:58",
+                "end_time": "2025-06-24T08:27:00",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SOCIA_EXO_ZAC_5\\databases\\SOCIA_EXO_ZAC_2025_19.zst"
+        },
+        "SOCIA_EXO_ZAC_2025_20": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        }
+    }
+}

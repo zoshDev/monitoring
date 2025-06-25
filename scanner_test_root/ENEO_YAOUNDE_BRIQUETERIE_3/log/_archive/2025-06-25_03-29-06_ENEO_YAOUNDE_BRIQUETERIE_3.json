@@ -1,0 +1,467 @@
+{
+    "operation_start_time": "2025-06-24T08:00:00",
+    "operation_end_time": "2025-06-24T08:30:00",
+    "agent_id": "ENEO_YAOUNDE_BRIQUETERIE_3",
+    "databases": {
+        "ENEO_YAOUNDE_BRIQUETERIE_2025_1": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:00",
+                "end_time": "2025-06-24T08:00:02",
+                "sha256": "INVALID_HASH_2_0",
+                "size": "45"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:20",
+                "end_time": "2025-06-24T08:13:40",
+                "sha256": "INVALID_HASH_2_0",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:40",
+                "end_time": "2025-06-24T08:26:42",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\ENEO_YAOUNDE_BRIQUETERIE_3\\databases\\ENEO_YAOUNDE_BRIQUETERIE_2025_1.zst"
+        },
+        "ENEO_YAOUNDE_BRIQUETERIE_2025_2": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "ENEO_YAOUNDE_BRIQUETERIE_2025_3": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:20",
+                "end_time": "2025-06-24T08:00:22",
+                "sha256": "4a709cbf651435490a79f25bad16e952ad942a476cfc3cc986b523108e3be225",
+                "size": "45"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:22",
+                "end_time": "2025-06-24T08:13:42",
+                "sha256": "4a709cbf651435490a79f25bad16e952ad942a476cfc3cc986b523108e3be225",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:42",
+                "end_time": "2025-06-24T08:26:44",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\ENEO_YAOUNDE_BRIQUETERIE_3\\databases\\ENEO_YAOUNDE_BRIQUETERIE_2025_3.zst"
+        },
+        "ENEO_YAOUNDE_BRIQUETERIE_2025_4": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:30",
+                "end_time": "2025-06-24T08:00:32",
+                "sha256": "4a709cbf651435490a79f25bad16e952ad942a476cfc3cc986b523108e3be225",
+                "size": "45"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:23",
+                "end_time": "2025-06-24T08:13:43",
+                "sha256": "4a709cbf651435490a79f25bad16e952ad942a476cfc3cc986b523108e3be225",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:43",
+                "end_time": "2025-06-24T08:26:45",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\ENEO_YAOUNDE_BRIQUETERIE_3\\databases\\ENEO_YAOUNDE_BRIQUETERIE_2025_4.zst"
+        },
+        "ENEO_YAOUNDE_BRIQUETERIE_2025_5": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:40",
+                "end_time": "2025-06-24T08:00:42",
+                "sha256": "INVALID_HASH_2_4",
+                "size": "45"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:24",
+                "end_time": "2025-06-24T08:13:44",
+                "sha256": "INVALID_HASH_2_4",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:44",
+                "end_time": "2025-06-24T08:26:46",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\ENEO_YAOUNDE_BRIQUETERIE_3\\databases\\ENEO_YAOUNDE_BRIQUETERIE_2025_5.zst"
+        },
+        "ENEO_YAOUNDE_BRIQUETERIE_2025_6": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "ENEO_YAOUNDE_BRIQUETERIE_2025_7": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:00",
+                "end_time": "2025-06-24T08:01:02",
+                "sha256": "33ddb34a62dfbb8ff9c7ed3dd5587bfe10ff1cfb3ec9686bc57762fb033a2f0a",
+                "size": "45"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:26",
+                "end_time": "2025-06-24T08:13:46",
+                "sha256": "33ddb34a62dfbb8ff9c7ed3dd5587bfe10ff1cfb3ec9686bc57762fb033a2f0a",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:46",
+                "end_time": "2025-06-24T08:26:48",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\ENEO_YAOUNDE_BRIQUETERIE_3\\databases\\ENEO_YAOUNDE_BRIQUETERIE_2025_7.zst"
+        },
+        "ENEO_YAOUNDE_BRIQUETERIE_2025_8": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:10",
+                "end_time": "2025-06-24T08:01:12",
+                "sha256": "33ddb34a62dfbb8ff9c7ed3dd5587bfe10ff1cfb3ec9686bc57762fb033a2f0a",
+                "size": "45"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:27",
+                "end_time": "2025-06-24T08:13:47",
+                "sha256": "33ddb34a62dfbb8ff9c7ed3dd5587bfe10ff1cfb3ec9686bc57762fb033a2f0a",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:47",
+                "end_time": "2025-06-24T08:26:49",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\ENEO_YAOUNDE_BRIQUETERIE_3\\databases\\ENEO_YAOUNDE_BRIQUETERIE_2025_8.zst"
+        },
+        "ENEO_YAOUNDE_BRIQUETERIE_2025_9": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:20",
+                "end_time": "2025-06-24T08:01:22",
+                "sha256": "INVALID_HASH_2_8",
+                "size": "45"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:28",
+                "end_time": "2025-06-24T08:13:48",
+                "sha256": "INVALID_HASH_2_8",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:48",
+                "end_time": "2025-06-24T08:26:50",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\ENEO_YAOUNDE_BRIQUETERIE_3\\databases\\ENEO_YAOUNDE_BRIQUETERIE_2025_9.zst"
+        },
+        "ENEO_YAOUNDE_BRIQUETERIE_2025_10": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "ENEO_YAOUNDE_BRIQUETERIE_2025_11": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:40",
+                "end_time": "2025-06-24T08:01:42",
+                "sha256": "4c2d5653b38b14ad68363464f7601d49e0e1731b383abf91bde01fc57a91ac55",
+                "size": "46"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:30",
+                "end_time": "2025-06-24T08:13:50",
+                "sha256": "4c2d5653b38b14ad68363464f7601d49e0e1731b383abf91bde01fc57a91ac55",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:50",
+                "end_time": "2025-06-24T08:26:52",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\ENEO_YAOUNDE_BRIQUETERIE_3\\databases\\ENEO_YAOUNDE_BRIQUETERIE_2025_11.zst"
+        },
+        "ENEO_YAOUNDE_BRIQUETERIE_2025_12": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:50",
+                "end_time": "2025-06-24T08:01:52",
+                "sha256": "4c2d5653b38b14ad68363464f7601d49e0e1731b383abf91bde01fc57a91ac55",
+                "size": "46"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:31",
+                "end_time": "2025-06-24T08:13:51",
+                "sha256": "4c2d5653b38b14ad68363464f7601d49e0e1731b383abf91bde01fc57a91ac55",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:51",
+                "end_time": "2025-06-24T08:26:53",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\ENEO_YAOUNDE_BRIQUETERIE_3\\databases\\ENEO_YAOUNDE_BRIQUETERIE_2025_12.zst"
+        },
+        "ENEO_YAOUNDE_BRIQUETERIE_2025_13": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:00",
+                "end_time": "2025-06-24T08:02:02",
+                "sha256": "INVALID_HASH_2_12",
+                "size": "46"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:32",
+                "end_time": "2025-06-24T08:13:52",
+                "sha256": "INVALID_HASH_2_12",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:52",
+                "end_time": "2025-06-24T08:26:54",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\ENEO_YAOUNDE_BRIQUETERIE_3\\databases\\ENEO_YAOUNDE_BRIQUETERIE_2025_13.zst"
+        },
+        "ENEO_YAOUNDE_BRIQUETERIE_2025_14": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "ENEO_YAOUNDE_BRIQUETERIE_2025_15": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:20",
+                "end_time": "2025-06-24T08:02:22",
+                "sha256": "84272aeb4e62911567b5d9598f72d10b48503e9166decef6672268f33421115e",
+                "size": "46"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:34",
+                "end_time": "2025-06-24T08:13:54",
+                "sha256": "84272aeb4e62911567b5d9598f72d10b48503e9166decef6672268f33421115e",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:54",
+                "end_time": "2025-06-24T08:26:56",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\ENEO_YAOUNDE_BRIQUETERIE_3\\databases\\ENEO_YAOUNDE_BRIQUETERIE_2025_15.zst"
+        },
+        "ENEO_YAOUNDE_BRIQUETERIE_2025_16": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:30",
+                "end_time": "2025-06-24T08:02:32",
+                "sha256": "84272aeb4e62911567b5d9598f72d10b48503e9166decef6672268f33421115e",
+                "size": "46"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:35",
+                "end_time": "2025-06-24T08:13:55",
+                "sha256": "84272aeb4e62911567b5d9598f72d10b48503e9166decef6672268f33421115e",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:55",
+                "end_time": "2025-06-24T08:26:57",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\ENEO_YAOUNDE_BRIQUETERIE_3\\databases\\ENEO_YAOUNDE_BRIQUETERIE_2025_16.zst"
+        },
+        "ENEO_YAOUNDE_BRIQUETERIE_2025_17": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:40",
+                "end_time": "2025-06-24T08:02:42",
+                "sha256": "INVALID_HASH_2_16",
+                "size": "46"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:36",
+                "end_time": "2025-06-24T08:13:56",
+                "sha256": "INVALID_HASH_2_16",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:56",
+                "end_time": "2025-06-24T08:26:58",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\ENEO_YAOUNDE_BRIQUETERIE_3\\databases\\ENEO_YAOUNDE_BRIQUETERIE_2025_17.zst"
+        },
+        "ENEO_YAOUNDE_BRIQUETERIE_2025_18": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "ENEO_YAOUNDE_BRIQUETERIE_2025_19": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:03:00",
+                "end_time": "2025-06-24T08:03:02",
+                "sha256": "80e63a91c7cb844b303496ea98763b76ce3e8d85c02d5c3ee492597d788aa9a5",
+                "size": "46"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:38",
+                "end_time": "2025-06-24T08:13:58",
+                "sha256": "80e63a91c7cb844b303496ea98763b76ce3e8d85c02d5c3ee492597d788aa9a5",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:58",
+                "end_time": "2025-06-24T08:27:00",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\ENEO_YAOUNDE_BRIQUETERIE_3\\databases\\ENEO_YAOUNDE_BRIQUETERIE_2025_19.zst"
+        },
+        "ENEO_YAOUNDE_BRIQUETERIE_2025_20": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:03:10",
+                "end_time": "2025-06-24T08:03:12",
+                "sha256": "80e63a91c7cb844b303496ea98763b76ce3e8d85c02d5c3ee492597d788aa9a5",
+                "size": "46"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:39",
+                "end_time": "2025-06-24T08:13:59",
+                "sha256": "80e63a91c7cb844b303496ea98763b76ce3e8d85c02d5c3ee492597d788aa9a5",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:59",
+                "end_time": "2025-06-24T08:27:01",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\ENEO_YAOUNDE_BRIQUETERIE_3\\databases\\ENEO_YAOUNDE_BRIQUETERIE_2025_20.zst"
+        }
+    }
+}

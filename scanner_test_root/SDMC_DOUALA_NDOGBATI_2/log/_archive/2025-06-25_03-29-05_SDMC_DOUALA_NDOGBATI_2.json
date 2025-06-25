@@ -1,0 +1,467 @@
+{
+    "operation_start_time": "2025-06-24T08:00:00",
+    "operation_end_time": "2025-06-24T08:30:00",
+    "agent_id": "SDMC_DOUALA_NDOGBATI_2",
+    "databases": {
+        "SDMC_DOUALA_NDOGBATI_2025_1": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:00",
+                "end_time": "2025-06-24T08:00:02",
+                "sha256": "4aa11f44bd3620d1fa7fdb7c427a97ca7d43b052e82545c43311b15f7a39441c",
+                "size": "41"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:20",
+                "end_time": "2025-06-24T08:13:40",
+                "sha256": "4aa11f44bd3620d1fa7fdb7c427a97ca7d43b052e82545c43311b15f7a39441c",
+                "size": "10"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:40",
+                "end_time": "2025-06-24T08:26:42",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SDMC_DOUALA_NDOGBATI_2\\databases\\SDMC_DOUALA_NDOGBATI_2025_1.zst"
+        },
+        "SDMC_DOUALA_NDOGBATI_2025_2": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:10",
+                "end_time": "2025-06-24T08:00:12",
+                "sha256": "INVALID_HASH_1_1",
+                "size": "41"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:21",
+                "end_time": "2025-06-24T08:13:41",
+                "sha256": "INVALID_HASH_1_1",
+                "size": "10"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:41",
+                "end_time": "2025-06-24T08:26:43",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SDMC_DOUALA_NDOGBATI_2\\databases\\SDMC_DOUALA_NDOGBATI_2025_2.zst"
+        },
+        "SDMC_DOUALA_NDOGBATI_2025_3": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "SDMC_DOUALA_NDOGBATI_2025_4": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:30",
+                "end_time": "2025-06-24T08:00:32",
+                "sha256": "1c65284bd3d99625276b1f5d2d594f1ef274ea8aef437d34f7d61b27a60922bb",
+                "size": "41"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:23",
+                "end_time": "2025-06-24T08:13:43",
+                "sha256": "1c65284bd3d99625276b1f5d2d594f1ef274ea8aef437d34f7d61b27a60922bb",
+                "size": "10"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:43",
+                "end_time": "2025-06-24T08:26:45",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SDMC_DOUALA_NDOGBATI_2\\databases\\SDMC_DOUALA_NDOGBATI_2025_4.zst"
+        },
+        "SDMC_DOUALA_NDOGBATI_2025_5": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:40",
+                "end_time": "2025-06-24T08:00:42",
+                "sha256": "1c65284bd3d99625276b1f5d2d594f1ef274ea8aef437d34f7d61b27a60922bb",
+                "size": "41"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:24",
+                "end_time": "2025-06-24T08:13:44",
+                "sha256": "1c65284bd3d99625276b1f5d2d594f1ef274ea8aef437d34f7d61b27a60922bb",
+                "size": "10"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:44",
+                "end_time": "2025-06-24T08:26:46",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SDMC_DOUALA_NDOGBATI_2\\databases\\SDMC_DOUALA_NDOGBATI_2025_5.zst"
+        },
+        "SDMC_DOUALA_NDOGBATI_2025_6": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:50",
+                "end_time": "2025-06-24T08:00:52",
+                "sha256": "INVALID_HASH_1_5",
+                "size": "41"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:25",
+                "end_time": "2025-06-24T08:13:45",
+                "sha256": "INVALID_HASH_1_5",
+                "size": "10"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:45",
+                "end_time": "2025-06-24T08:26:47",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SDMC_DOUALA_NDOGBATI_2\\databases\\SDMC_DOUALA_NDOGBATI_2025_6.zst"
+        },
+        "SDMC_DOUALA_NDOGBATI_2025_7": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "SDMC_DOUALA_NDOGBATI_2025_8": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:10",
+                "end_time": "2025-06-24T08:01:12",
+                "sha256": "534c0af1d9d5f5038c82462cf303f863b2301ce416dc931b72391ff79e7b5cee",
+                "size": "41"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:27",
+                "end_time": "2025-06-24T08:13:47",
+                "sha256": "534c0af1d9d5f5038c82462cf303f863b2301ce416dc931b72391ff79e7b5cee",
+                "size": "10"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:47",
+                "end_time": "2025-06-24T08:26:49",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SDMC_DOUALA_NDOGBATI_2\\databases\\SDMC_DOUALA_NDOGBATI_2025_8.zst"
+        },
+        "SDMC_DOUALA_NDOGBATI_2025_9": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:20",
+                "end_time": "2025-06-24T08:01:22",
+                "sha256": "534c0af1d9d5f5038c82462cf303f863b2301ce416dc931b72391ff79e7b5cee",
+                "size": "41"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:28",
+                "end_time": "2025-06-24T08:13:48",
+                "sha256": "534c0af1d9d5f5038c82462cf303f863b2301ce416dc931b72391ff79e7b5cee",
+                "size": "10"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:48",
+                "end_time": "2025-06-24T08:26:50",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SDMC_DOUALA_NDOGBATI_2\\databases\\SDMC_DOUALA_NDOGBATI_2025_9.zst"
+        },
+        "SDMC_DOUALA_NDOGBATI_2025_10": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:30",
+                "end_time": "2025-06-24T08:01:32",
+                "sha256": "INVALID_HASH_1_9",
+                "size": "42"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:29",
+                "end_time": "2025-06-24T08:13:49",
+                "sha256": "INVALID_HASH_1_9",
+                "size": "10"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:49",
+                "end_time": "2025-06-24T08:26:51",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SDMC_DOUALA_NDOGBATI_2\\databases\\SDMC_DOUALA_NDOGBATI_2025_10.zst"
+        },
+        "SDMC_DOUALA_NDOGBATI_2025_11": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "SDMC_DOUALA_NDOGBATI_2025_12": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:50",
+                "end_time": "2025-06-24T08:01:52",
+                "sha256": "e4f52f2a7c2ff3a95ed29bb360d7ac85888e501a5cb801af1db95c3ede0d63d9",
+                "size": "42"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:31",
+                "end_time": "2025-06-24T08:13:51",
+                "sha256": "e4f52f2a7c2ff3a95ed29bb360d7ac85888e501a5cb801af1db95c3ede0d63d9",
+                "size": "10"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:51",
+                "end_time": "2025-06-24T08:26:53",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SDMC_DOUALA_NDOGBATI_2\\databases\\SDMC_DOUALA_NDOGBATI_2025_12.zst"
+        },
+        "SDMC_DOUALA_NDOGBATI_2025_13": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:00",
+                "end_time": "2025-06-24T08:02:02",
+                "sha256": "e4f52f2a7c2ff3a95ed29bb360d7ac85888e501a5cb801af1db95c3ede0d63d9",
+                "size": "42"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:32",
+                "end_time": "2025-06-24T08:13:52",
+                "sha256": "e4f52f2a7c2ff3a95ed29bb360d7ac85888e501a5cb801af1db95c3ede0d63d9",
+                "size": "10"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:52",
+                "end_time": "2025-06-24T08:26:54",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SDMC_DOUALA_NDOGBATI_2\\databases\\SDMC_DOUALA_NDOGBATI_2025_13.zst"
+        },
+        "SDMC_DOUALA_NDOGBATI_2025_14": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:10",
+                "end_time": "2025-06-24T08:02:12",
+                "sha256": "INVALID_HASH_1_13",
+                "size": "42"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:33",
+                "end_time": "2025-06-24T08:13:53",
+                "sha256": "INVALID_HASH_1_13",
+                "size": "10"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:53",
+                "end_time": "2025-06-24T08:26:55",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SDMC_DOUALA_NDOGBATI_2\\databases\\SDMC_DOUALA_NDOGBATI_2025_14.zst"
+        },
+        "SDMC_DOUALA_NDOGBATI_2025_15": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "SDMC_DOUALA_NDOGBATI_2025_16": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:30",
+                "end_time": "2025-06-24T08:02:32",
+                "sha256": "bac27270fe05a15d12a1a6b5ba282d0abfc3d29b43d6233b78e410c43e8d7b2f",
+                "size": "42"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:35",
+                "end_time": "2025-06-24T08:13:55",
+                "sha256": "bac27270fe05a15d12a1a6b5ba282d0abfc3d29b43d6233b78e410c43e8d7b2f",
+                "size": "10"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:55",
+                "end_time": "2025-06-24T08:26:57",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SDMC_DOUALA_NDOGBATI_2\\databases\\SDMC_DOUALA_NDOGBATI_2025_16.zst"
+        },
+        "SDMC_DOUALA_NDOGBATI_2025_17": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:40",
+                "end_time": "2025-06-24T08:02:42",
+                "sha256": "bac27270fe05a15d12a1a6b5ba282d0abfc3d29b43d6233b78e410c43e8d7b2f",
+                "size": "42"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:36",
+                "end_time": "2025-06-24T08:13:56",
+                "sha256": "bac27270fe05a15d12a1a6b5ba282d0abfc3d29b43d6233b78e410c43e8d7b2f",
+                "size": "10"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:56",
+                "end_time": "2025-06-24T08:26:58",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SDMC_DOUALA_NDOGBATI_2\\databases\\SDMC_DOUALA_NDOGBATI_2025_17.zst"
+        },
+        "SDMC_DOUALA_NDOGBATI_2025_18": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:50",
+                "end_time": "2025-06-24T08:02:52",
+                "sha256": "INVALID_HASH_1_17",
+                "size": "42"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:37",
+                "end_time": "2025-06-24T08:13:57",
+                "sha256": "INVALID_HASH_1_17",
+                "size": "10"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:57",
+                "end_time": "2025-06-24T08:26:59",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SDMC_DOUALA_NDOGBATI_2\\databases\\SDMC_DOUALA_NDOGBATI_2025_18.zst"
+        },
+        "SDMC_DOUALA_NDOGBATI_2025_19": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "SDMC_DOUALA_NDOGBATI_2025_20": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:03:10",
+                "end_time": "2025-06-24T08:03:12",
+                "sha256": "8c49a3784016e54797835763b6e54aa2e8ee4399edfb4905bd138e84562bcba5",
+                "size": "42"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:39",
+                "end_time": "2025-06-24T08:13:59",
+                "sha256": "8c49a3784016e54797835763b6e54aa2e8ee4399edfb4905bd138e84562bcba5",
+                "size": "10"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:59",
+                "end_time": "2025-06-24T08:27:01",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SDMC_DOUALA_NDOGBATI_2\\databases\\SDMC_DOUALA_NDOGBATI_2025_20.zst"
+        }
+    }
+}

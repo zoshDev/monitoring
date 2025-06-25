@@ -1,0 +1,467 @@
+{
+    "operation_start_time": "2025-06-24T08:00:00",
+    "operation_end_time": "2025-06-24T08:30:00",
+    "agent_id": "SIRPACAM_BAFOUSSAM_CAMPUS_7",
+    "databases": {
+        "SIRPACAM_BAFOUSSAM_CAMPUS_2025_1": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:00",
+                "end_time": "2025-06-24T08:00:02",
+                "sha256": "INVALID_HASH_6_0",
+                "size": "46"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:20",
+                "end_time": "2025-06-24T08:13:40",
+                "sha256": "INVALID_HASH_6_0",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:40",
+                "end_time": "2025-06-24T08:26:42",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SIRPACAM_BAFOUSSAM_CAMPUS_7\\databases\\SIRPACAM_BAFOUSSAM_CAMPUS_2025_1.zst"
+        },
+        "SIRPACAM_BAFOUSSAM_CAMPUS_2025_2": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "SIRPACAM_BAFOUSSAM_CAMPUS_2025_3": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:20",
+                "end_time": "2025-06-24T08:00:22",
+                "sha256": "cbcf48dbdd49d41ea116c4e9b9a606b779b53af4e1ccf8e3b23c98592c991788",
+                "size": "46"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:22",
+                "end_time": "2025-06-24T08:13:42",
+                "sha256": "cbcf48dbdd49d41ea116c4e9b9a606b779b53af4e1ccf8e3b23c98592c991788",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:42",
+                "end_time": "2025-06-24T08:26:44",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SIRPACAM_BAFOUSSAM_CAMPUS_7\\databases\\SIRPACAM_BAFOUSSAM_CAMPUS_2025_3.zst"
+        },
+        "SIRPACAM_BAFOUSSAM_CAMPUS_2025_4": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:30",
+                "end_time": "2025-06-24T08:00:32",
+                "sha256": "cbcf48dbdd49d41ea116c4e9b9a606b779b53af4e1ccf8e3b23c98592c991788",
+                "size": "46"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:23",
+                "end_time": "2025-06-24T08:13:43",
+                "sha256": "cbcf48dbdd49d41ea116c4e9b9a606b779b53af4e1ccf8e3b23c98592c991788",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:43",
+                "end_time": "2025-06-24T08:26:45",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SIRPACAM_BAFOUSSAM_CAMPUS_7\\databases\\SIRPACAM_BAFOUSSAM_CAMPUS_2025_4.zst"
+        },
+        "SIRPACAM_BAFOUSSAM_CAMPUS_2025_5": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:00:40",
+                "end_time": "2025-06-24T08:00:42",
+                "sha256": "INVALID_HASH_6_4",
+                "size": "46"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:24",
+                "end_time": "2025-06-24T08:13:44",
+                "sha256": "INVALID_HASH_6_4",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:44",
+                "end_time": "2025-06-24T08:26:46",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SIRPACAM_BAFOUSSAM_CAMPUS_7\\databases\\SIRPACAM_BAFOUSSAM_CAMPUS_2025_5.zst"
+        },
+        "SIRPACAM_BAFOUSSAM_CAMPUS_2025_6": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "SIRPACAM_BAFOUSSAM_CAMPUS_2025_7": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:00",
+                "end_time": "2025-06-24T08:01:02",
+                "sha256": "4000530eafe183fe567aee7f1fc43e033e1fb04dec3699268e3c9445b1cc3481",
+                "size": "46"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:26",
+                "end_time": "2025-06-24T08:13:46",
+                "sha256": "4000530eafe183fe567aee7f1fc43e033e1fb04dec3699268e3c9445b1cc3481",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:46",
+                "end_time": "2025-06-24T08:26:48",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SIRPACAM_BAFOUSSAM_CAMPUS_7\\databases\\SIRPACAM_BAFOUSSAM_CAMPUS_2025_7.zst"
+        },
+        "SIRPACAM_BAFOUSSAM_CAMPUS_2025_8": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:10",
+                "end_time": "2025-06-24T08:01:12",
+                "sha256": "4000530eafe183fe567aee7f1fc43e033e1fb04dec3699268e3c9445b1cc3481",
+                "size": "46"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:27",
+                "end_time": "2025-06-24T08:13:47",
+                "sha256": "4000530eafe183fe567aee7f1fc43e033e1fb04dec3699268e3c9445b1cc3481",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:47",
+                "end_time": "2025-06-24T08:26:49",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SIRPACAM_BAFOUSSAM_CAMPUS_7\\databases\\SIRPACAM_BAFOUSSAM_CAMPUS_2025_8.zst"
+        },
+        "SIRPACAM_BAFOUSSAM_CAMPUS_2025_9": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:20",
+                "end_time": "2025-06-24T08:01:22",
+                "sha256": "INVALID_HASH_6_8",
+                "size": "46"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:28",
+                "end_time": "2025-06-24T08:13:48",
+                "sha256": "INVALID_HASH_6_8",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:48",
+                "end_time": "2025-06-24T08:26:50",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SIRPACAM_BAFOUSSAM_CAMPUS_7\\databases\\SIRPACAM_BAFOUSSAM_CAMPUS_2025_9.zst"
+        },
+        "SIRPACAM_BAFOUSSAM_CAMPUS_2025_10": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "SIRPACAM_BAFOUSSAM_CAMPUS_2025_11": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:40",
+                "end_time": "2025-06-24T08:01:42",
+                "sha256": "93a5906a28288905cbd1271cb842dee4ab12b6d6f9b50e3b43fdeacc641a64e1",
+                "size": "47"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:30",
+                "end_time": "2025-06-24T08:13:50",
+                "sha256": "93a5906a28288905cbd1271cb842dee4ab12b6d6f9b50e3b43fdeacc641a64e1",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:50",
+                "end_time": "2025-06-24T08:26:52",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SIRPACAM_BAFOUSSAM_CAMPUS_7\\databases\\SIRPACAM_BAFOUSSAM_CAMPUS_2025_11.zst"
+        },
+        "SIRPACAM_BAFOUSSAM_CAMPUS_2025_12": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:01:50",
+                "end_time": "2025-06-24T08:01:52",
+                "sha256": "93a5906a28288905cbd1271cb842dee4ab12b6d6f9b50e3b43fdeacc641a64e1",
+                "size": "47"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:31",
+                "end_time": "2025-06-24T08:13:51",
+                "sha256": "93a5906a28288905cbd1271cb842dee4ab12b6d6f9b50e3b43fdeacc641a64e1",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:51",
+                "end_time": "2025-06-24T08:26:53",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SIRPACAM_BAFOUSSAM_CAMPUS_7\\databases\\SIRPACAM_BAFOUSSAM_CAMPUS_2025_12.zst"
+        },
+        "SIRPACAM_BAFOUSSAM_CAMPUS_2025_13": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:00",
+                "end_time": "2025-06-24T08:02:02",
+                "sha256": "INVALID_HASH_6_12",
+                "size": "47"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:32",
+                "end_time": "2025-06-24T08:13:52",
+                "sha256": "INVALID_HASH_6_12",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:52",
+                "end_time": "2025-06-24T08:26:54",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SIRPACAM_BAFOUSSAM_CAMPUS_7\\databases\\SIRPACAM_BAFOUSSAM_CAMPUS_2025_13.zst"
+        },
+        "SIRPACAM_BAFOUSSAM_CAMPUS_2025_14": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "SIRPACAM_BAFOUSSAM_CAMPUS_2025_15": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:20",
+                "end_time": "2025-06-24T08:02:22",
+                "sha256": "dd7d3e533f3a4ed4e44d85dbe2c480220a827c4334ddf03ba6fe585da725f6c2",
+                "size": "47"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:34",
+                "end_time": "2025-06-24T08:13:54",
+                "sha256": "dd7d3e533f3a4ed4e44d85dbe2c480220a827c4334ddf03ba6fe585da725f6c2",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:54",
+                "end_time": "2025-06-24T08:26:56",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SIRPACAM_BAFOUSSAM_CAMPUS_7\\databases\\SIRPACAM_BAFOUSSAM_CAMPUS_2025_15.zst"
+        },
+        "SIRPACAM_BAFOUSSAM_CAMPUS_2025_16": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:30",
+                "end_time": "2025-06-24T08:02:32",
+                "sha256": "dd7d3e533f3a4ed4e44d85dbe2c480220a827c4334ddf03ba6fe585da725f6c2",
+                "size": "47"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:35",
+                "end_time": "2025-06-24T08:13:55",
+                "sha256": "dd7d3e533f3a4ed4e44d85dbe2c480220a827c4334ddf03ba6fe585da725f6c2",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:55",
+                "end_time": "2025-06-24T08:26:57",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SIRPACAM_BAFOUSSAM_CAMPUS_7\\databases\\SIRPACAM_BAFOUSSAM_CAMPUS_2025_16.zst"
+        },
+        "SIRPACAM_BAFOUSSAM_CAMPUS_2025_17": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:02:40",
+                "end_time": "2025-06-24T08:02:42",
+                "sha256": "INVALID_HASH_6_16",
+                "size": "47"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:36",
+                "end_time": "2025-06-24T08:13:56",
+                "sha256": "INVALID_HASH_6_16",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:56",
+                "end_time": "2025-06-24T08:26:58",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SIRPACAM_BAFOUSSAM_CAMPUS_7\\databases\\SIRPACAM_BAFOUSSAM_CAMPUS_2025_17.zst"
+        },
+        "SIRPACAM_BAFOUSSAM_CAMPUS_2025_18": {
+            "BACKUP": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "COMPRESS": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "sha256": "",
+                "size": "0"
+            },
+            "TRANSFER": {
+                "status": "False",
+                "start_time": "",
+                "end_time": "",
+                "error_message": "null"
+            },
+            "staged_file_name": ""
+        },
+        "SIRPACAM_BAFOUSSAM_CAMPUS_2025_19": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:03:00",
+                "end_time": "2025-06-24T08:03:02",
+                "sha256": "c300c4b7521e3f155710ebd993613ff1000c25d9855576ce1b158c12d71464f3",
+                "size": "47"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:38",
+                "end_time": "2025-06-24T08:13:58",
+                "sha256": "c300c4b7521e3f155710ebd993613ff1000c25d9855576ce1b158c12d71464f3",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:58",
+                "end_time": "2025-06-24T08:27:00",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SIRPACAM_BAFOUSSAM_CAMPUS_7\\databases\\SIRPACAM_BAFOUSSAM_CAMPUS_2025_19.zst"
+        },
+        "SIRPACAM_BAFOUSSAM_CAMPUS_2025_20": {
+            "BACKUP": {
+                "status": "True",
+                "start_time": "2025-06-24T08:03:10",
+                "end_time": "2025-06-24T08:03:12",
+                "sha256": "c300c4b7521e3f155710ebd993613ff1000c25d9855576ce1b158c12d71464f3",
+                "size": "47"
+            },
+            "COMPRESS": {
+                "status": "True",
+                "start_time": "2025-06-24T08:13:39",
+                "end_time": "2025-06-24T08:13:59",
+                "sha256": "c300c4b7521e3f155710ebd993613ff1000c25d9855576ce1b158c12d71464f3",
+                "size": "11"
+            },
+            "TRANSFER": {
+                "status": "True",
+                "start_time": "2025-06-24T08:26:59",
+                "end_time": "2025-06-24T08:27:01",
+                "error_message": "null"
+            },
+            "staged_file_name": "scanner_test_root\\SIRPACAM_BAFOUSSAM_CAMPUS_7\\databases\\SIRPACAM_BAFOUSSAM_CAMPUS_2025_20.zst"
+        }
+    }
+}
